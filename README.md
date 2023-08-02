@@ -1,4 +1,4 @@
-**Cyber Cloak using OpenCV**
+#**Cyber Cloak using OpenCV**
 This repository contains code for creating a "Cloak of Invisibility" effect using OpenCV. The concept is inspired by the famous invisibility cloak from the Harry Potter series, where a person wrapped in the cloak becomes invisible. In this implementation, we use computer vision techniques to make a selected color range (in this case, green) appear transparent, effectively giving the illusion of invisibility.
 
 How it Works
