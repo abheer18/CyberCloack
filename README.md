@@ -1,7 +1,7 @@
 # Cyber Cloak using OpenCV
 This repository contains code for creating a "Cloak of Invisibility" effect using OpenCV. The concept is inspired by the famous invisibility cloak from the Harry Potter series, where a person wrapped in the cloak becomes invisible. In this implementation, we use computer vision techniques to make a selected color range (in this case, green) appear transparent, effectively giving the illusion of invisibility.
 
-How it Works
+## How it Works
 The code uses the computer vision library OpenCV to perform the following steps:
 
 Capture the background: Before starting the main video loop, the code captures a single frame from the camera to use it as the background for later processing.
@@ -14,7 +14,7 @@ Noise Removal: The mask goes through a series of morphological operations, such 
 
 Generate the Invisible Effect: The code applies the mask to the stored background to make the selected green color region transparent. It then combines the transparent region with the current frame to give the illusion of invisibility.
 
-How to Use
+## How to Use
 Clone the repository to your local machine.
 
 Make sure you have Python and OpenCV installed.
@@ -25,8 +25,8 @@ Adjust the trackbars to select the desired green color range for the cloak. You 
 
 Stand in front of the camera wearing green clothing (or holding a green object), and you should see the "Cloak of Invisibility" effect in action.
 
-Additional Notes
-It is recommended to use a solid green-colored object for the best results. Avoid wearing clothing or holding objects with colors similar to the background.
+## Additional Notes
+It is recommended to use a solid green-colored object for the best results. Avoid wearing clothing or holding objects with colors similar to the background, other colors  can also be used by setting their HSV color code in the color trackbars.
 
 The code may require some adjustments to work optimally in different lighting conditions or with complex backgrounds.
 
